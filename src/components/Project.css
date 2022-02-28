@@ -1,0 +1,558 @@
+section.project {
+  padding-top: 40px;
+  width: 100vw;
+  font-family: "Poppins", Arial, Helvetica, sans-serif;
+}
+
+.wrap-project {
+  width: 100vw;
+}
+
+.wrap-project .title-project {
+  background-image: url("../../public/background-gf.jpg");
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.title-1-project {
+  margin-top: 15px;
+  display: flex;
+  justify-content: center;
+  /* text-align: center; */
+  font-size: 2.5rem;
+}
+
+.title-1-project h1:nth-child(1) {
+  color: #e76f00;
+}
+.title-1-project h1:nth-child(2) {
+  color: white;
+}
+
+.content-title-project {
+  text-align: center;
+  color: white;
+}
+/*//? mulai card untuk project */
+.wrap-card-project {
+  /* background-color: darkblue; */
+  width: 100vw;
+  /* height: calc(100vh - 357px); */
+  display: flex;
+  justify-content: center;
+}
+.container-card-project {
+  position: relative;
+  top: -115px;
+  /* background-color: white; */
+  /* left: calc((100vw - 66vw - (40px * 4)) / 2); */
+  display: grid;
+  grid-template-areas:
+    "project-1 project-2 project-3"
+    "project-4 project-5 project-6";
+  gap: 40px;
+  padding: 40px;
+  height: fit-content;
+  width: fit-content;
+  /* background-color: red; */
+  /* background-color: #f1faee; */
+  background-color: #e0e0e0;
+  border-radius: 30px;
+  /* border: 2px solid #888; */
+  /* background: #caf0f8;
+  box-shadow: inset 18px 18px 53px #aacad0, inset -18px -18px 53px #eaffff; */
+}
+
+.container-card-project a {
+  color: black;
+}
+
+.card-project {
+  width: 25vw;
+  height: 260px;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* box-shadow: 1px 5px 13px #888; */
+  background: #e0e0e0;
+  box-shadow: 13px 13px 12px #8b8b8b, -13px -13px 12px #ffffff;
+}
+
+.card-p-1 figure img {
+  border-radius: 30px;
+  width: 25vw;
+  height: 260px;
+  transition: all 0.5s ease;
+}
+
+.card-p-1 figure h4 {
+  color: white;
+  position: absolute;
+  font-size: 1.2rem;
+  top: 80px;
+  letter-spacing: 1.2px;
+  left: calc(40px + ((25vw - 225px) * 0.5));
+  background-color: rgba(0, 0, 255, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 225px;
+  z-index: 2;
+  opacity: 0;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+
+.card-p-2 figure img {
+  border-radius: 30px;
+  width: 25vw;
+  height: 260px;
+  transition: all 0.5s ease;
+}
+
+.card-p-2 figure h4 {
+  color: white;
+  position: absolute;
+  font-size: 1.2rem;
+  top: 80px;
+  letter-spacing: 1.2px;
+  left: calc((40px + 25vw + 40px) + ((25vw - 225px) * 0.5));
+  background-color: rgba(0, 0, 255, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 225px;
+  z-index: 2;
+  opacity: 0;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+
+.card-p-3 figure img {
+  border-radius: 30px;
+  width: 25vw;
+  height: 260px;
+  transition: all 0.5s ease;
+}
+
+.card-p-3 figure h4 {
+  color: white;
+  position: absolute;
+  font-size: 1.2rem;
+  top: 80px;
+  letter-spacing: 1.2px;
+  left: calc((120px + 50vw) + ((25vw - 225px) * 0.5));
+  background-color: rgba(0, 0, 255, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 225px;
+  z-index: 2;
+  opacity: 0;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+
+.card-p-4 figure img {
+  border-radius: 30px;
+  width: 25vw;
+  height: 260px;
+  transition: all 0.5s ease;
+}
+
+.card-p-4 figure h4 {
+  color: white;
+  position: absolute;
+  font-size: 1.2rem;
+  top: calc(40px + 260px + 40px + 40px);
+  letter-spacing: 1.2px;
+  left: calc(40px + ((25vw - 225px) * 0.5));
+  background-color: rgba(0, 0, 255, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 225px;
+  z-index: 2;
+  opacity: 0;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+
+.card-p-5 figure img {
+  border-radius: 30px;
+  width: 25vw;
+  height: 260px;
+  transition: all 0.5s ease;
+}
+
+.card-p-5 figure h4 {
+  color: white;
+  position: absolute;
+  font-size: 1.2rem;
+  top: calc(40px + 260px + 40px + 40px);
+  letter-spacing: 1.2px;
+  left: calc((40px + 25vw + 40px) + ((25vw - 225px) * 0.5));
+  background-color: rgba(0, 0, 255, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 225px;
+  z-index: 2;
+  opacity: 0;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+
+.card-p-6 figure img {
+  border-radius: 30px;
+  width: 25vw;
+  height: 260px;
+  transition: all 0.5s ease;
+}
+
+.card-p-6 figure h4 {
+  color: white;
+  position: absolute;
+  font-size: 1.2rem;
+  top: calc(40px + 260px + 40px + 40px);
+  letter-spacing: 1.2px;
+  left: calc((120px + 50vw) + ((25vw - 225px) * 0.5));
+  background-color: rgba(0, 0, 255, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 225px;
+  z-index: 2;
+  opacity: 0;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+
+.card-p-1 figure h4.on,
+.card-p-2 figure h4.on,
+.card-p-3 figure h4.on,
+.card-p-4 figure h4.on,
+.card-p-5 figure h4.on,
+.card-p-6 figure h4.on {
+  opacity: 1;
+}
+
+.card-p-1 figure img.on {
+  transform: scale(1.05);
+  background: blue;
+  filter: blur(3px);
+  overflow: hidden;
+  background-image: rgba(0, 0, 255, 0.5);
+}
+.card-p-2 figure img.on {
+  transform: scale(1.05);
+  background: blue;
+  filter: blur(3px);
+  overflow: hidden;
+  background-image: rgba(0, 0, 255, 0.5);
+}
+
+.card-p-3 figure img.on {
+  transform: scale(1.05);
+  background: blue;
+  filter: blur(3px);
+  overflow: hidden;
+  background-image: rgba(0, 0, 255, 0.5);
+}
+
+.card-p-4 figure img.on {
+  transform: scale(1.05);
+  background: blue;
+  filter: blur(3px);
+  overflow: hidden;
+  background-image: rgba(0, 0, 255, 0.5);
+}
+.card-p-5 figure img.on {
+  transform: scale(1.05);
+  background: blue;
+  filter: blur(3px);
+  overflow: hidden;
+  background-image: rgba(0, 0, 255, 0.5);
+}
+.card-p-6 figure img.on {
+  transform: scale(1.05);
+  background: blue;
+  filter: blur(3px);
+  overflow: hidden;
+  background-image: rgba(0, 0, 255, 0.5);
+}
+
+.card-project article {
+  padding: 20px 30px 50px 20px;
+  /* top: -20vh; */
+  position: absolute;
+  top: 125px;
+  background-color: white;
+  border-radius: 20px;
+  width: 18vw;
+  height: fit-content;
+}
+
+.card-p-4 article {
+  padding: 20px 30px 50px 20px;
+  /* top: -20vh; */
+  position: absolute;
+  top: calc(125px + 175px + 40px + 85px);
+  background-color: white;
+  border-radius: 20px;
+  width: 18vw;
+  height: fit-content;
+}
+
+.card-p-5 article {
+  padding: 20px 30px 50px 20px;
+  /* top: -20vh; */
+  position: absolute;
+  top: calc(125px + 175px + 40px + 85px);
+  background-color: white;
+  border-radius: 20px;
+  width: 18vw;
+  height: fit-content;
+}
+
+.card-p-6 article {
+  padding: 20px 30px 50px 20px;
+  /* top: -20vh; */
+  position: absolute;
+  top: calc(125px + 175px + 40px + 85px);
+  background-color: white;
+  border-radius: 20px;
+  width: 18vw;
+  height: fit-content;
+}
+
+.title-card-project {
+  font-size: 0.7rem;
+  letter-spacing: 1px;
+  height: fit-content;
+  width: 65px;
+  text-align: center;
+  border-radius: 30px;
+  background-color: #00468c;
+  /* position: relative;
+  bottom: 18px;
+  left: 170px; */
+  position: absolute;
+  top: -10px;
+  left: 200px;
+  /* bottom: 18px; */
+}
+.title-card-project h4 {
+  font-weight: 500;
+  color: white;
+}
+
+.content-card-project {
+  display: flex;
+  flex-direction: column;
+  row-gap: 15px;
+}
+
+.datetime p {
+  font-size: 0.8rem;
+  letter-spacing: 1px;
+}
+
+.judul-berita p {
+  font-size: 0.9rem;
+  letter-spacing: 1px;
+  line-height: 1.6;
+  font-weight: 500;
+}
+
+.card-p-1 {
+  grid-area: project-1;
+  background-color: white;
+}
+.card-p-2 {
+  grid-area: project-2;
+  background-color: yellow;
+}
+.card-p-3 {
+  grid-area: project-3;
+  background-color: yellow;
+}
+.card-p-4 {
+  grid-area: project-4;
+  background-color: yellow;
+}
+.card-p-5 {
+  grid-area: project-5;
+  background-color: yellow;
+}
+.card-p-6 {
+  grid-area: project-6;
+  background-color: yellow;
+}
+
+/*//? selesai card untuk project */
+
+@media screen and (max-width: 600px) {
+  .wrap-project {
+    overflow: hidden;
+  }
+
+  .container-card-project {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    grid-template-areas:
+      "project-1"
+      "project-2"
+      "project-3"
+      "project-4"
+      "project-5"
+      "project-6";
+    gap: 40px;
+    padding: 40px;
+    height: fit-content;
+    width: 60vw;
+    /* margin-left: auto; */
+  }
+
+  .card-project {
+    width: 50vw;
+    height: 260px;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* box-shadow: 1px 5px 13px #888; */
+    background: #e0e0e0;
+    box-shadow: 13px 13px 12px #8b8b8b, -13px -13px 12px #ffffff;
+  }
+
+  .card-p-1 figure img,
+  .card-p-2 figure img,
+  .card-p-3 figure img,
+  .card-p-4 figure img,
+  .card-p-5 figure img,
+  .card-p-6 figure img {
+    width: 50vw;
+    height: 260px;
+  }
+
+  .card-p-1 figure h4 {
+    font-size: 0.75rem;
+    top: 80px;
+    left: calc(69px + ((50vw - 200px) * 0.5));
+    width: 180px;
+  }
+
+  .card-p-2 figure h4 {
+    font-size: 0.75rem;
+    left: calc(69px + ((50vw - 200px) * 0.5));
+    top: calc(40px + 260px + 40px + 40px);
+    width: 180px;
+  }
+
+  .card-p-3 figure h4 {
+    font-size: 0.75rem;
+    left: calc(69px + ((50vw - 200px) * 0.5));
+    top: calc(40px + 260px + 40px + 260px + 40px + 40px);
+    width: 180px;
+  }
+
+  .card-p-4 figure h4 {
+    font-size: 0.75rem;
+    left: calc(69px + ((50vw - 200px) * 0.5));
+    top: calc(40px + 260px + 40px + 260px + 40px + 260px + 40px + 40px);
+    width: 180px;
+  }
+
+  .card-p-5 figure h4 {
+    font-size: 0.75rem;
+    left: calc(69px + ((50vw - 200px) * 0.5));
+    top: calc(
+      40px + 260px + 40px + 260px + 40px + 260px + 40px + 40px + 260px + 40px
+    );
+    width: 180px;
+  }
+
+  .card-p-6 figure h4 {
+    font-size: 0.75rem;
+    left: calc(69px + ((50vw - 200px) * 0.5));
+    top: calc(
+      40px + 260px + 40px + 260px + 40px + 260px + 40px + 40px + 260px + 260px +
+        40px + 40px
+    );
+    width: 180px;
+  }
+
+  .card-p-1 article {
+    top: 115px;
+    width: 35vw;
+    height: 13vh;
+  }
+
+  .card-p-2 article {
+    top: calc(40px + 260px + 40px + (260px - 165px) - 15px);
+    width: 35vw;
+    height: 13vh;
+  }
+
+  .card-p-3 article {
+    /* background-color: #e76f00; */
+    top: calc(40px + 260px + 40px + 260px + 40px + (260px - 165px) - 15px);
+    width: 35vw;
+    height: 13vh;
+  }
+
+  .card-p-4 article {
+    top: calc(
+      40px + 260px + 40px + 260px + 40px + 260px + 40px + (260px - 165px) - 15px
+    );
+    width: 35vw;
+    height: 13vh;
+  }
+  .card-p-5 article {
+    top: calc(
+      40px + 260px + 40px + 260px + 40px + 260px + 40px + 260px + 40px +
+        (260px - 165px) - 15px
+    );
+    width: 35vw;
+    height: 13vh;
+  }
+  .card-p-6 article {
+    top: calc(
+      40px + 260px + 40px + 260px + 40px + 260px + 40px + 260px + 40px + 260px +
+        40px + (260px - 165px) - 15px
+    );
+    width: 35vw;
+    height: 13vh;
+  }
+
+  .title-card-project {
+    top: -7px;
+    left: 110px;
+    font-size: 0.6rem;
+  }
+
+  .content-card-project {
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+  }
+
+  .datetime p {
+    font-size: 0.7rem;
+    letter-spacing: 1px;
+  }
+
+  .judul-berita p {
+    font-size: 0.8rem;
+    letter-spacing: 1px;
+    line-height: 1.6;
+    font-weight: 500;
+  }
+}

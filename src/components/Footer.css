@@ -1,0 +1,185 @@
+footer {
+  font-family: "Quicksand", Arial, Helvetica, sans-serif;
+  overflow: hidden;
+  width: 100vw;
+  /* position: fixed; */
+  /* z-index: 2; */
+}
+
+.content-footer .top-footer {
+  padding-left: 25px;
+  padding-right: 25px;
+  background-color: #1e5298;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.top-footer .logo-details {
+  /* background-color: yellow; */
+  font-size: 1.8rem;
+  color: white;
+}
+
+.top-footer .contact-icons {
+  width: 35%;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #1e5298;
+}
+
+.contact-icons a {
+  height: 26px;
+  width: 26px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  color: black;
+  border: 1px solid #e9edc9;
+  border-radius: 100%;
+  /* box-shadow: 2px 2px 11px 5px #888888; */
+  transition: all 0.5s ease;
+}
+
+.footer-icons {
+  /* background-color: aqua; */
+  /* color:white; */
+  font-size: 20px;
+  /* background-color: brown; */
+}
+
+/*! icon-style satu satu */
+.contact-icons a:nth-child(1) {
+  background-color: white;
+}
+.email {
+  color: red;
+}
+
+.contact-icons a:nth-child(2) {
+  background-color: #0270ad;
+}
+.linkedin {
+  color: white;
+}
+
+.contact-icons a:nth-child(3) {
+  background-color: #2bb140;
+}
+.wa {
+  color: white;
+}
+
+.contact-icons a:nth-child(4) {
+  background-color: #1873eb;
+}
+.fb {
+  color: white;
+}
+
+.contact-icons a:nth-child(5) {
+  background-color: white;
+}
+.github {
+  color: black;
+}
+/* todo Hover */
+.contact-icons a:nth-child(1):hover {
+  background-color: red;
+}
+.email:hover {
+  color: white;
+}
+
+.contact-icons a:nth-child(2):hover {
+  background-color: white;
+}
+.linkedin:hover {
+  color: #0270ad;
+}
+
+.contact-icons a:nth-child(3):hover {
+  background-color: white;
+}
+.wa:hover {
+  color: #2bb140;
+}
+
+.contact-icons a:nth-child(4):hover {
+  background-color: white;
+}
+.fb:hover {
+  color: #1873eb;
+}
+
+.contact-icons a:nth-child(5):hover {
+  background-color: black;
+}
+.github:hover {
+  color: white;
+}
+/*  */
+
+footer .bottom-detail {
+  padding-left: 25px;
+  padding-right: 30px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #1f2937;
+}
+
+.bottom-detail span {
+  color: white;
+  letter-spacing: 1.2px;
+}
+.bottom-detail span a {
+  text-decoration: none;
+  color: white;
+}
+
+.bottom-detail span a:hover {
+  color: #2bb140;
+  text-decoration: underline;
+}
+
+.bottom-detail span.policy {
+  display: flex;
+  column-gap: 15px;
+  letter-spacing: 1.2px;
+}
+
+@media screen and (max-width: 600px) {
+  .top-footer .logo-details {
+    font-size: 1.6rem;
+  }
+
+  .top-footer .contact-icons {
+    width: 60%;
+  }
+
+  .bottom-detail span.copyright {
+    /* color: red; */
+    /* background-color: red; */
+    letter-spacing: 1.2px;
+    width: 50%;
+    font-size: 0.75rem;
+    display: block;
+    /* flex-direction: column; */
+  }
+
+  .bottom-detail span.policy {
+    font-size: 0.75rem;
+    letter-spacing: 1px;
+    height: fit-content;
+  }
+
+  .bottom-detail span.policy a {
+    width: 50%;
+  }
+}
